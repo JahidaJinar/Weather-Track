@@ -1,4 +1,4 @@
- const apiKey = "1bf041bf6e7b8428c0c77b88f552aa7e"; // Put your OpenWeatherMap API Key here
+ const apiKey = "1bf041bf6e7b8428c0c77b88f552aa7e"; 
 
 
  
@@ -149,11 +149,6 @@
      tempElement.textContent = `${Math.round(temp)}°${isCelsius ? 'C' : 'F'}`;
    });
  }
- 
- // Dark Mode Toggle
- themeToggle.addEventListener('click', () => {
-   document.body.classList.toggle('dark');
- });
  
  // Load Last City
  window.addEventListener('load', () => {
