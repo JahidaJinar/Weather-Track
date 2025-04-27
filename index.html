@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Weather Detect App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1><i>Weather Track</i></h1>
+    <div class="header-buttons">
+      <button id="unit-toggle">°C/°F</button>
+    </div>
+  </header>
+  
+
+  <main>
+    <section id="search-section">
+      <input type="text" id="city-input" placeholder="Enter city name">
+      <button id="search-btn">Get Weather</button>
+    </section>
+
+    <section id="weather-card" class="hidden">
+      <h2 id="city-name"></h2>
+      <div class="weather-info">
+        <img id="weather-icon" alt="Weather Icon">
+        <p id="temperature"></p>
+        <p id="description"></p>
+        <p id="humidity"></p>
+        <p id="wind"></p>
+      </div>
+    </section>
+
+    <section id="forecast-section" class="hidden">
+      <h2>5-Day Forecast</h2>
+      <div id="forecast-cards"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Weather Detect App © 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
