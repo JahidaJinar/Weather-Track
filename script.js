@@ -4,7 +4,6 @@
  const cityInput = document.getElementById('city-input');
  const weatherCard = document.getElementById('weather-card');
  const forecastSection = document.getElementById('forecast-section');
- const themeToggle = document.getElementById('theme-toggle');
  const unitToggle = document.getElementById('unit-toggle');
  
  let currentTempC = 0;
